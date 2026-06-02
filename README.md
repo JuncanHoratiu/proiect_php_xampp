@@ -10,13 +10,13 @@ This is a dynamic web application developed in PHP and MySQL designed for managi
 ## Screenshots
 
 ### Main Page (Public View)
-![Main Page](imagini/site.png)
+![Main Page](imagini/1.png)
 
 ### Administration Panel
-![Admin Panel](imagini/admin.png)
+![Admin Panel](imagini/2.png)
 
 ## How to Run Locally
 
 1. Copy the project folder into your local server directory: `xampp/htdocs/`.
 2. Open phpMyAdmin (`http://localhost/phpmyadmin/`) and import the `database.sql` file to set up the database and tables.
-3. Open your browser and navigate to: `http://localhost/proiect_db/index.php`.
+3. Open your browser and navigate to: `http://localhost/proiect_php_xampp/index.php`.

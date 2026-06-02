@@ -1,21 +1,22 @@
-# Proiect: Catalog de Produse (Realizarea aplicațiilor pentru WWW)
+# Product Catalog Project (Web Application Development)
 
-Acesta este un proiect dinamic dezvoltat în PHP și MySQL pentru gestionarea unui catalog de produse.
+This is a dynamic web application developed in PHP and MySQL designed for managing a product catalog.
 
-## Funcționalități principale:
-* **Partea Publică:** Afișarea dinamică a produselor și prețurilor din baza de date.
-* **Autentificare:** Panou de login securizat pentru administrator.
-* **CRUD Complet:** Adăugarea, modificarea și ștergerea produselor direct din interfață.
+## Key Features
+* **Public Interface:** Dynamic display of products and prices fetched directly from the MySQL database.
+* **Authentication:** Secure login panel restricted to the administrator.
+* **Full CRUD Operations:** Capability to Add, Read, Update, and Delete products seamlessly from the admin interface.
 
-## Capturi de ecran:
+## Screenshots
 
-### Pagina Principală (Publică)
-![Pagina Principala](imagini/1.png)
+### Main Page (Public View)
+![Main Page](imagini/site.png)
 
-### Panoul de Administrare
-![Panou Admin](imagini/2.png)
+### Administration Panel
+![Admin Panel](imagini/admin.png)
 
-## Cum se rulează local:
-1. Se copiază folderul în `xampp/htdocs/`.
-2. Se importă fișierul `database.sql` în phpMyAdmin.
-3. Se accesează `http://localhost/proiect_php_xampp/index.php`.
+## How to Run Locally
+
+1. Copy the project folder into your local server directory: `xampp/htdocs/`.
+2. Open phpMyAdmin (`http://localhost/phpmyadmin/`) and import the `database.sql` file to set up the database and tables.
+3. Open your browser and navigate to: `http://localhost/proiect_db/index.php`.
